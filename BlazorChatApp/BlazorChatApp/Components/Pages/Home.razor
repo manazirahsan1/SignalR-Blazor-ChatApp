@@ -1,0 +1,45 @@
+﻿@page "/home"
+@rendermode InteractiveWebAssembly
+
+@* <PageTitle>Chat App</PageTitle>
+
+Manna
+
+@if (systemMessages is not null && systemMessages.Count > 0)
+{
+    <ul>
+        @foreach (var message in systemMessages)
+        {
+            <li>
+                @message
+            </li>
+        }
+    </ul>
+}
+
+
+@code {
+    private List<string> systemMessages = new List<string>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var hubConnection = new HubConnectionBuilder()
+            .WithUrl("https://localhost:7101/chathub")
+            .Build();
+        hubConnection.On<string>("ReceiveSystemMessage", ReceiveSystemMessage);
+        await hubConnection.StartAsync();
+    }
+
+    private void ReceiveSystemMessage(string message)
+    {
+        // Console.WriteLine(message);
+        if (!string.IsNullOrWhiteSpace(message))
+        {
+            InvokeAsync(() =>
+            {
+                systemMessages.Add(message);
+                StateHasChanged();
+            });
+        }
+    }
+} *@

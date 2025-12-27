@@ -1,0 +1,11 @@
+C:\Users\musar\source\repos\SignalRChatApp\ChatContact\bin\Debug\net9.0\ChatContact.deps.json
+C:\Users\musar\source\repos\SignalRChatApp\ChatContact\bin\Debug\net9.0\ChatContact.dll
+C:\Users\musar\source\repos\SignalRChatApp\ChatContact\bin\Debug\net9.0\ChatContact.pdb
+C:\Users\musar\source\repos\SignalRChatApp\ChatContact\obj\Debug\net9.0\ChatContact.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musar\source\repos\SignalRChatApp\ChatContact\obj\Debug\net9.0\ChatContact.AssemblyInfoInputs.cache
+C:\Users\musar\source\repos\SignalRChatApp\ChatContact\obj\Debug\net9.0\ChatContact.AssemblyInfo.cs
+C:\Users\musar\source\repos\SignalRChatApp\ChatContact\obj\Debug\net9.0\ChatContact.csproj.CoreCompileInputs.cache
+C:\Users\musar\source\repos\SignalRChatApp\ChatContact\obj\Debug\net9.0\ChatContact.dll
+C:\Users\musar\source\repos\SignalRChatApp\ChatContact\obj\Debug\net9.0\refint\ChatContact.dll
+C:\Users\musar\source\repos\SignalRChatApp\ChatContact\obj\Debug\net9.0\ChatContact.pdb
+C:\Users\musar\source\repos\SignalRChatApp\ChatContact\obj\Debug\net9.0\ref\ChatContact.dll

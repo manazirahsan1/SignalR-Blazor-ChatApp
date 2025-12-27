@@ -1,0 +1,4 @@
+C:\Users\musar\source\repos\SignalRChatApp\BlazorChatApp\BlazorChatApp.Client\wwwroot\appsettings.Development.json
+C:\Users\musar\source\repos\SignalRChatApp\BlazorChatApp\BlazorChatApp.Client\wwwroot\appsettings.json
+wwwroot\appsettings.Development.json
+wwwroot\appsettings.json
